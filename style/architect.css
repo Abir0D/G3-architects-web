@@ -25,6 +25,12 @@ button:hover {
     transition: all 1s;
 }
 
+.section-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
 /* header section */
 header {
     background-color: rgba(255, 144, 14, 0.10);
@@ -55,12 +61,7 @@ nav li a {
     color: rgb(66, 66, 66);
 }
 
-.nav-title{
-    color: rgb(19, 19, 19);
-    font-size: 2.8rem;
-    font-weight: 700;
 
-}
 
 /*header banner-content */
 .banner-content {
@@ -136,6 +137,13 @@ main{
     font-weight: 400;
     font-size: 16px;
 }
+
+
+
+
+
+
+
 /* responsive media query */
 /* For small devices */
 @media screen and (max-width: 576px) {
@@ -158,7 +166,6 @@ main{
        
     }
   
-
 }
 
 /* For Medium devices */
@@ -169,5 +176,10 @@ main{
     }
     nav, .team-container{
         flex-direction: column;
+    }
+    .team-container{
+        padding-left: 20px;
+        padding-right: 20px;
+       
     }
 }
